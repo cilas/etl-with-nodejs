@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app:
+    image: node:14.15.5-alpine
+    container_name: etl_with_nodejs
+    restart: always
+    tty: true
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app
+    networks:
+      - etl_with_nodejs_net
+networks:
+  etl_with_nodejs_net:
+    driver: bridge

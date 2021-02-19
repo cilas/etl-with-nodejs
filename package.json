@@ -1,0 +1,12 @@
+{
+  "name": "etl-with-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cilas",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^4.15.1",
+    "google-libphonenumber": "^3.2.17",
+    "lodash": "^4.17.20"
+  }
+}
